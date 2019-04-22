@@ -1,5 +1,5 @@
 # Devoxx France 2019
-L'édition française du Devoxx 2019 s'est déroulée à Paris au Palais des Congrès du 17 au 19 Avril. L'agenda des conférences peut être accessible via ce [lien](https://cfp.devoxx.fr/2019/index.html).
+L'édition française du Devoxx 2019 s'est déroulée à Paris au Palais des Congrès du 17 au 19 Avril. L'agenda des conférences est accessible via ce [lien](https://cfp.devoxx.fr/2019/index.html).
 
 ## Buzz Words et Thèmes d'Actualité
 - GraphQL
@@ -16,4 +16,4 @@ L'édition française du Devoxx 2019 s'est déroulée à Paris au Palais des Con
 - Resilince4j et Adaptive Concurrency Limits
 - Deep Learning et AI
 - Quantum Computing
-- Bonheur et bienveillance au travail et équilibre avec la vie privée
+- Bonheur, bienveillance au travail et équilibre avec la vie privée
