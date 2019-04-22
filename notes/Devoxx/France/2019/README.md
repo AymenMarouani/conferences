@@ -1,0 +1,19 @@
+# Devoxx France 2019
+L'édition française du Devoxx 2019 s'est déroulée à Paris au Palais des Congrès du 17 au 19 Avril. L'agenda des conférences peut être accessible via ce [lien](https://www.devoxx.fr/agenda?year=2019).
+
+## Buzz Words et Thèmes d'Actualité
+- GraphQL
+- Micronaut
+- Quarkus
+- GraalVM
+- Eclipse MicroProfile
+- Apache Kafka
+- L'avenir de Java au-delà de Java 11
+- Domain Driven Design et Architecture Microservices
+- Architecture Hexagonale (at scale)
+- Sécurité applicative
+- Conteneurs et orchestration
+- Resilince4j et Adaptive Concurrency Limits
+- Deep Learning et AI
+- Quantum Computing
+- Bonheur et bienveillance au travail et équilibre avec la vie privée
