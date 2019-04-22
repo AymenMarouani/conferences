@@ -19,7 +19,7 @@
 <details>
     <summary>Tools-in-Action</summary>
     <p>
-    Après une brève présentation de <i><a href="https://quarkus.io/">Quarkus</a></i>, cette <a href="">session</a> a enchaîné sur une example pratique qui montre l'utilisation d'un fichier de configuration unifié et le gain en taille des livrables et en performance dans les temps de démarrage avec l'approche AoT (Ahead of Time) en coopération avec la <i><a href="https://www.graalvm.org/">GraalVM</a></i>.
+    Après une brève présentation de <i><a href="https://quarkus.io/">Quarkus</a></i>, cette <a href="">session</a> a enchaîné sur un example pratique qui montre l'utilisation d'un fichier de configuration unifié et le gain en taille des livrables et en performance dans les temps de démarrage avec l'approche AoT (Ahead of Time) en coopération avec la <i><a href="https://www.graalvm.org/">GraalVM</a></i>.
     </p>
 </details>
 
@@ -41,6 +41,6 @@
 <details>
     <summary>Tools-in-Action</summary>
     <p>
-    Cette <a href="https://cfp.devoxx.fr/2019/talk/XAF-7489/Utiliser_les_flux_reactifs_c'est_bien,_les_tester_et_les_debugger_c'est_mieux_!">présentation</a> a pour but de montrer les difficultés qu'on rencontre lors du teste unitaire d'un code Reactif, en particulier avec les Frameworks <i><a href="https://github.com/ReactiveX/RxJava">RxJava</a></i> et <i><a href="https://projectreactor.io/">Reactor</a></i>. La difficulté vient du fait qu'un code adoptant le paradigme Reactif est multi-threaded donc non déterministe et souvent asynchrone. Pour le cas asynchrone, il faut utiliser des Scheduler pour simuler un délais afin d'intercepter la réponse différée. Il y'a aussi des cas où on doit faire attention au volume de la réponse ce qui demande l'utilisation de la technique du <i>Polling</i>. Les flux réactifs sont réputés avoir des stack trace cryptique et difficile à lire, mais Reactor possède l'avantage d'avoir des sorties plus lisibles. En conclusion, tester des flux réactifs est délicat et demande un effort à part.
+    Cette <a href="https://cfp.devoxx.fr/2019/talk/XAF-7489/Utiliser_les_flux_reactifs_c'est_bien,_les_tester_et_les_debugger_c'est_mieux_!">présentation</a> a pour but de montrer les difficultés qu'on rencontre lors du teste unitaire d'un code Reactif, en particulier avec les Frameworks <i><a href="https://github.com/ReactiveX/RxJava">RxJava</a></i> et <i><a href="https://projectreactor.io/">Reactor</a></i>. La difficulté vient du fait qu'un code adoptant le paradigme Reactif est multi-threaded donc non déterministe (l'ordre des éléments dans le flux n'est pas nécessairement respecté) et souvent asynchrone. Pour le cas asynchrone, il faut utiliser des Scheduler pour simuler un délais afin d'intercepter la réponse différée. Il y'a aussi des cas où on doit faire attention au volume de la réponse ce qui demande l'utilisation de la technique du <i>Polling</i>. Les flux réactifs sont réputés avoir des stack trace cryptique et difficile à lire, mais Reactor possède l'avantage d'avoir des sorties plus lisibles. En conclusion, tester des flux réactifs est délicat et demande un effort à part.
     </p>
 </details>
