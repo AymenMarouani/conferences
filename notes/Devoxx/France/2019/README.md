@@ -9,9 +9,16 @@ L'édition française du Devoxx 2019 s'est déroulée à Paris au Palais des Con
 - Eclipse MicroProfile
 - Apache Kafka
 - L'avenir de Java au-delà de Java 11
-- Domain Driven Design et Architecture Microservices
+- WebAssembly
+- Domain Driven Design
+- CQRS
+- Architecture Microservices
 - Architecture Hexagonale (at scale)
+- Serverless
+- Cloud Native
+- Tests unitaire et intégration
 - Sécurité applicative
+- Keycloak
 - Conteneurs et orchestration
 - Resilince4j et Adaptive Concurrency Limits
 - Deep Learning et AI
