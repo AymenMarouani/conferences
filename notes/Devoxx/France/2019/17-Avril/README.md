@@ -10,7 +10,7 @@ Ce [lien](https://github.com/microprofile-extensions) contient une liste exhaust
 
 # Quarkus: du live reload à la compilation native
 **Tools-in-Action**  
-Après une brève présentation de [_Quarkus_](https://quarkus.io/), cette [session](https://cfp.devoxx.fr/2019/talk/HRS-0291/Quarkus:_du_live_reload_a_la_compilation_native) a enchaîné sur un example pratique qui montre l'utilisation d'un fichier de configuration unifié et le gain en taille des livrables et en performance dans les temps de démarrage avec l'approche AoT (Ahead of Time) en coopération avec la [GraalVM_](https://www.graalvm.org/).
+Après une brève présentation de [_Quarkus_](https://quarkus.io/), cette [session](https://cfp.devoxx.fr/2019/talk/HRS-0291/Quarkus:_du_live_reload_a_la_compilation_native) a enchaîné sur un example pratique qui montre l'utilisation d'un fichier de configuration unifié et le gain en taille des livrables et en performance dans les temps de démarrage avec l'approche AoT (Ahead of Time) en coopération avec la [_GraalVM_](https://www.graalvm.org/).
 
 # Micronaut, le framework JVM ultra-light du futur
 **Tools-in-Action**  
