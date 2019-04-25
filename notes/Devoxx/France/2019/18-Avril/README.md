@@ -17,9 +17,9 @@ Selon le site [db-engines](https://db-engines.com/en/systems), il existe quelque
 ![alt text](./images/pgsql-lacks-nosql.png "What RDBMS lacked")
 
 Ensuite, la présentation a continué avec les fonctionnalités dans PostgreSQL qui visent à mettre en place ces concepts qu'on trouve dans les base NoSQL, à savoir:  
--_Schemaless_: les colonnes indexées du type JSON et JSONB qui portent les types et qui sont indexées
--_Scalability/Replication, Failure Ready_: la fonctionnalité du _Sharding_ qui assure la réplication et la création des partitions des tables, la réplication peut être physique (copie source destination) ou logique (par stream d'écriture). En outre, PostgreSQL supporte des requêtes distribuées et parallèles
--_Multimodel_: l'utilisation des _Foreign Data Wrappers_ qui permettent de manipuler des données en provenance d'autres sources NoSQL. Sans oublier les _Temporal Queries_ qui rapprochent PostgreSQL des bases Time Series comme [_Prometheus_](https://prometheus.io/).
+- _Schemaless_: les colonnes indexées du type JSON et JSONB qui portent les types et qui sont indexées.
+- _Scalability/Replication, Failure Ready_: la fonctionnalité du _Sharding_ qui assure la réplication et la création des partitions des tables, la réplication peut être physique (copie source destination) ou logique (par stream d'écriture). En outre, PostgreSQL supporte des requêtes distribuées et parallèles.
+- _Multimodel_: l'utilisation des _Foreign Data Wrappers_ qui permettent de manipuler des données en provenance d'autres sources NoSQL. Sans oublier les _Temporal Queries_ qui rapprochent PostgreSQL des bases Time Series comme [_Prometheus_](https://prometheus.io/).
 
 Enfin, une démonstration du nouveau <i>Driver JDBC Reactif R2DBC</i> pour montrer comment il nous permet de gérer d'une manière asynchrone et robuste notre connexion.
 
