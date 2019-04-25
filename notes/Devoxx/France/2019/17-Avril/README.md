@@ -15,11 +15,17 @@ Après une brève présentation de [_Quarkus_](https://quarkus.io/), cette [sess
 # Micronaut, le framework JVM ultra-light du futur
 **Tools-in-Action**  
 [_Micronaut_](https://micronaut.io/) est une Framework très récente (apparue en Août 2018) basée sur la JVM. Micronaut se présente comme étant une synthèse des avantages des autres frameworks JVM (Spring, Grails et Spring Boot)
+
 ![alt text](./images/micronaut-advantages.png "Micronaut Advantages")
+
 et d'autre part en évitant leur limitations côté conception.
+
 ![alt text](./images/micronaut-other-limitations.png "Limitations that Micronaut tried to avoid")
+
 Micronaut se base sur la technique de la compilation anticipée AoT (Ahead of Time) et évite l'usage du mécanisme de la Reflection.
+
 ![alt text](./images/micronaut-how-it-works.png "Micronaut: How does it work")
+
 La présentation a montré un [example](https://github.com/orevial/twitter-demo-micronaut-kotlin) de chargement de flux Twitter en Kotlin.
 
 # Utiliser les flux réactifs c'est bien, les tester et les debugger c'est mieux !
