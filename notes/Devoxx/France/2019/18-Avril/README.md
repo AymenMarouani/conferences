@@ -55,6 +55,15 @@ Pour les perspectives futures des standards d'authentification, on peut mentionn
 
 # Event loop et asynchronisme en JavaScript
 **Quickie**  
+Cette brève [présentation](https://cfp.devoxx.fr/2019/talk/YNA-8521/Event_loop_et_asynchronisme_en_JavaScript) nous a montré la gestion en interne de l'asynchronisme en JavaScript dans les navigateurs. En effet, les appels asynchrones sont mis à part des une queue spécifique et ne sont exécutées (par l'_Event Loop_ et en mode FIFO) que lorsque la pile des appels est vide.
+
+![alt text](./images/js-async-task-queue.png "Summary on JavaScript Task Queues")
+
+Mais les tasks ne sont pas tous les même, car ils existent des tasks qui sont de nature plus prioritaire comme l'affichage, d'ou l'existence de plusieurs queues par type.
+
+![alt text](./images/js-async-task-queues-types.png "Summary on JavaScript Task Queues Types")
+
+Les transparents sont disponibles sous ce [lien](https://t.co/TKdWDCUdry).
 
 # Introduction to Face Processing with Computer Vision
 **Conférence**  
