@@ -67,6 +67,14 @@ Les transparents sont disponibles sous ce [lien](https://t.co/TKdWDCUdry).
 
 # Introduction to Face Processing with Computer Vision
 **Conférence**  
+Une [présentation](https://cfp.devoxx.fr/2019/talk/LQO-4838/Introduction_to_Face_Processing_with_Computer_Vision) sur l'état d'art de la reconnaissance faciale qu'on trouve souvent dans les applications comment FaceBook et SnapShat. La base dans les démarches de traitement des images est de considérer l'image comme un _Tensor_ du type (x, y, (R, G, B)) où x et y sont les dimensions de l'image et (R, G, B) les niveaux de couleurs. Ils existent deux types d'algorithmes pour la reconnaissance faciale:
+- les algorithmes conventionnels basée sur le traitement directe des grandeurs physiques pour aboutir à un modèle (HOG pour Histogram Oriented Gradient) où on calcule un gradient moyen par une zone de 16 pixels pour établir un patron général du visage
+
+![alt text](./images/face-recognition-HOG.png "Conventional Face Recognition Method of Gradient")
+
+- les algorithmes basées sur les réseaux de neurones (Convolutional Neural Networks) et des modèles entraînés au préalable
+
+La bibliothèque [face_recognition](https://github.com/ageitgey/face_recognition) pour Python est bien réputée pour sa simplicité d'utilisation.
 
 # Cats, Qubits, and Clouds: The Quantum Future
 **Conférence**  
