@@ -1,6 +1,6 @@
 # La Keynote de Devoxx France
 **Keynote**  
-Présentation de différentes statistiques (nombre de participants, taux de visualisation sur Youtube, logistique), dans une mise en scène drôle, qui sont en globalité positives et montrent le succès de l'événement Devoxx France.
+Présentation de différentes statistiques (nombre de participants, taux de visualisation sur Youtube, logistique), dans une mise en scène drôle, qui sont globalement positives et montrent le succès de l'événement Devoxx France.
 
 # Le Bonheur au travail : au delà du bullshit.
 **Keynote**  
@@ -44,18 +44,18 @@ L'authentification est renforcée par un schéma dit _Double Factor Authenticati
 - biométrique: empreinte digitale, reconnaissance faciale
 - matériel: carte SIM, badge RSA, les certificats (préconisé par l'ANSSI)
 - géographique: empêcher une connexion d'un endroit différent à une courte période après la première
-- comportementale: identifier les habitudes de l'utilisateur lors de sa connexion pour identifier les sessions volées
+- comportementale: identifier les habitudes de l'utilisateur lors de sa connexion pour bloquer les sessions volées
 
 Concernant la date du Décembre 2019, une directive de la DSP2 (Directive pour les Services de Paiement) va rendre obligatoire le schéma 2FA pour sécuriser les opérations de paiement.
 
 Pour les perspectives futures des standards d'authentification, on peut mentionner:
-- _Universal 2nd Factor_ ou [_U2F_](https://en.wikipedia.org/wiki/Universal_2nd_Factor) qui vise à standardiser une forme d'authentification renforcée basé sur les clés USB
+- _Universal 2nd Factor_ ou [_U2F_](https://en.wikipedia.org/wiki/Universal_2nd_Factor) qui vise à standardiser une forme d'authentification renforcée basée sur des supports matériels comme les clés USB
 - le projet [_FIDO2_](https://en.wikipedia.org/wiki/FIDO2_Project)
 - [_WebAuthn_](https://webauthn.io/) un standard W3C
 
 # Event loop et asynchronisme en JavaScript
 **Quickie**  
-Cette brève [présentation](https://cfp.devoxx.fr/2019/talk/YNA-8521/Event_loop_et_asynchronisme_en_JavaScript) nous a montré la gestion en interne de l'asynchronisme en JavaScript dans les navigateurs. En effet, les appels asynchrones sont mis à part des une queue spécifique et ne sont exécutées (par l'_Event Loop_ et en mode FIFO) que lorsque la pile des appels est vide.
+Cette brève [présentation](https://cfp.devoxx.fr/2019/talk/YNA-8521/Event_loop_et_asynchronisme_en_JavaScript) nous a montré la gestion en interne de l'asynchronisme en JavaScript dans les navigateurs. En effet, les appels asynchrones sont mis à part des une queue spécifique et ne sont exécutés (par l'_Event Loop_ et en mode FIFO) que lorsque la pile des appels est vide.
 
 ![alt text](./images/js-async-task-queue.png "Summary on JavaScript Task Queues")
 
