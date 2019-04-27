@@ -21,7 +21,7 @@ Ensuite, la présentation a continué avec les fonctionnalités dans PostgreSQL 
 - _Scalability/Replication, Failure Ready_: la fonctionnalité du _Sharding_ qui assure la réplication et la création des partitions des tables, la réplication peut être physique (copie source destination) ou logique (par stream d'écriture). En outre, PostgreSQL supporte des requêtes distribuées et parallèles.
 - _Multimodel_: l'utilisation des _Foreign Data Wrappers_ qui permettent de manipuler des données en provenance d'autres sources NoSQL. Sans oublier les _Temporal Queries_ qui rapprochent PostgreSQL des bases Time Series comme [_Prometheus_](https://prometheus.io/).
 
-Enfin, une démonstration du nouveau [_Driver JDBC Reactif R2DBC_](https://r2dbc.io/) pour montrer comment il nous permet de gérer d'une manière asynchrone et robuste notre connexion.
+Enfin, une démonstration du nouveau [_Reactive JDBC Driver R2DBC_](https://r2dbc.io/) pour montrer comment il nous permet de gérer d'une manière asynchrone et robuste notre connexion.
 
 # Retour aux sources de l'authentification et ce qui va changer en Septembre 2019 pour nos achats
 **Conférence**  
