@@ -21,12 +21,37 @@ Ensuite, la présentation a continué avec les fonctionnalités dans PostgreSQL 
 - _Scalability/Replication, Failure Ready_: la fonctionnalité du _Sharding_ qui assure la réplication et la création des partitions des tables, la réplication peut être physique (copie source destination) ou logique (par stream d'écriture). En outre, PostgreSQL supporte des requêtes distribuées et parallèles.
 - _Multimodel_: l'utilisation des _Foreign Data Wrappers_ qui permettent de manipuler des données en provenance d'autres sources NoSQL. Sans oublier les _Temporal Queries_ qui rapprochent PostgreSQL des bases Time Series comme [_Prometheus_](https://prometheus.io/).
 
-Enfin, une démonstration du nouveau <i>Driver JDBC Reactif R2DBC</i> pour montrer comment il nous permet de gérer d'une manière asynchrone et robuste notre connexion.
+Enfin, une démonstration du nouveau [_Driver JDBC Reactif R2DBC_](https://r2dbc.io/) pour montrer comment il nous permet de gérer d'une manière asynchrone et robuste notre connexion.
 
 # Retour aux sources de l'authentification et ce qui va changer en Septembre 2019 pour nos achats
 **Conférence**  
-Cette [conférence](https://cfp.devoxx.fr/2019/talk/MIT-3734/Retour_aux_sources_de_l'authentification_et_ce_qui_va_changer_en_Septembre_2019_pour_nos_achats) a commencé par relater l'histoire des mécanismes d'authentification (Basic, RFC-2617, stockage dans la base de données, les fichiers apache .htpasswd et .htaccess) pour finir avec la technique actuelle du hashage, Salting et le Work Factor avec des algorithmes comme Argon2, scrypt ou bcrypt.
+Cette [conférence](https://cfp.devoxx.fr/2019/talk/MIT-3734/Retour_aux_sources_de_l'authentification_et_ce_qui_va_changer_en_Septembre_2019_pour_nos_achats) a commencé par relater l'histoire des mécanismes d'authentification ([Basic ou RFC-2617](https://www.ietf.org/rfc/rfc2617.txt), stockage dans la base de données, les fichiers apache [.htpasswd](https://httpd.apache.org/docs/2.4/programs/htpasswd.html) et [.htaccess](https://httpd.apache.org/docs/2.4/howto/htaccess.html)) pour finir avec la technique actuelle du _hashage_, qui se base sur les ingrédients suivants:
+- Strong: le mot de passe doit être suffisamment long et contient un maximum de diversité de symbole, donc, imprévisible.
+- Adaptative: il fonctionne indépendamment de l'algorithme de chiffrage.
+- Salted: l'utilisation d'un _salt_ qui est une entrée aléatoire ajoutée à l'algorithme de hashage afin de varier le résultat qui est le mot de passe chiffré, ça permet d'éviter toute redondance si un mot de passe est choisi plus qu'une fois.
+- des algorithmes de hashage robustes comme [Argon2](https://en.wikipedia.org/wiki/Argon2), [scrypt](https://en.wikipedia.org/wiki/Scrypt) ou [bcrypt](https://en.wikipedia.org/wiki/Bcrypt).
+ 
+Le bon choix de ces facteurs va permettre d'augmenter l'effort nécessaire (_Work Factor_) pour déduire le mot de passe à partir de sa transformation.  
+Afin d'enforcer la robustesse du choix des mots de passe au niveau application, la conférence suggère d'utiliser des outils de test des mots de passes comme la librairie [zxcvbn](https://github.com/dropbox/zxcvbn) de DropBox ou l'API [HaveIBeenPawned](https://haveibeenpwned.com/API/v2) qui permet de vérifier si un mot de passe a était compromis ou non (au moins selon la base de données sur laquelle se base l'API).
 
+Ci-dessous un résumé sous forme de checklist sur les critères de robustesse d'un système d'authentification.
+
+![alt text](./images/password-authentication-checklist.png "Authentication Strength Checklist")
+
+Dans le cadre actuel des API et des architectures microservices, des protocoles d'authentification sont apparus notamment [_OpenIDConnect_](https://openid.net/connect/) et il est fortement recommandé d'utiliser des OpenID Providers certifiés comme [Auth0](https://auth0.com/), [keycloack](https://www.keycloak.org/) ou [France connect](https://franceconnect.gouv.fr/).
+
+L'authentification est renforcée par un schéma dit _Double Factor Authentication_ ou _2FA_ qui consiste à ajouter un facteur de vérification de l'identité en plus du mot de passe et ce pour les opérations critiques comme le paiement en ligne. Un example simple est celui des codes envoyés par SMS suite à l'authentification afin de compléter la démarche sécurisée. Le deuxième facteur est associé d'une manière unique et sécurisée à l'utilisateur et peut être de nature:
+- biométrique: empreinte digitale, reconnaissance faciale
+- matériel: carte SIM, badge RSA, les certificats (préconisé par l'ANSSI)
+- géographique: empêcher une connexion d'un endroit différent à une courte période après la première
+- comportementale: identifier les habitudes de l'utilisateur lors de sa connexion pour identifier les sessions volées
+
+Concernant la date du Décembre 2019, une directive de la DSP2 (Directive pour les Services de Paiement) va rendre obligatoire le schéma 2FA pour sécuriser les opérations de paiement.
+
+Pour les perspectives futures des standards d'authentification, on peut mentionner:
+- _Universal 2nd Factor_ ou [_U2F_](https://en.wikipedia.org/wiki/Universal_2nd_Factor) qui vise à standardiser une forme d'authentification renforcée basé sur les clés USB
+- le projet [_FIDO2_](https://en.wikipedia.org/wiki/FIDO2_Project)
+- [_WebAuthn_](https://webauthn.io/) un standard W3C
 
 # Event loop et asynchronisme en JavaScript
 **Quickie**  
