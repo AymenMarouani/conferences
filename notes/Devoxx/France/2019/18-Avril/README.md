@@ -78,6 +78,23 @@ La bibliothèque [face_recognition](https://github.com/ageitgey/face_recognition
 
 # Cats, Qubits, and Clouds: The Quantum Future
 **Conférence**  
+Cette [conférence](https://cfp.devoxx.fr/2019/talk/KPB-7976/Cats,_Qubits,_and_Clouds:__The_Quantum_Future_) traite le sujet du _Quantum Computing_ et son état d'art. Elle commence par présenter des problèmes liés à notre vie quotidienne et qui sont difficiles à leur obtenir des réponses dans des délais acceptables, par example, le problème d'un parcours optimisé sans répétition d'un groupe de ville par un avion, nos moyens actuels de résolution passent 25 minutes pour 10 villes alors que la durée va monter en exponentiel en 27 ans pour 16 villes. En plus, il y'a l'example de l'industrie pharmaceutique où trouver des composés chimiques pour un nouveau médicament demande de calculer un très grand nombre de paramètres liés à la taille de la molécule. Aborder ce problème avec l'approche classique des ordinateurs numériques et en utilisant des approximations ne permet pas de donner des résultats précis et on se trouve avec des erreurs non négligeables.  
+Vers la fin des années 80, certains physiciens ont fait le lien entre la théorie de l'information et les propriétés du monde de l'infiniment petit. En effet, la théorie Quantique attribut les propriétés de _Superposition_ et d'intrication ou _Entanglement_ aux systèmes atomiques. Ansi, un support d'information à l'échelle quantique peut, grace aux propriétés mentionnées auparavant, présenter un avantage sur les ordinateurs classiques:
+- Superposition: on peut définir un _Qbit_ qui se trouve dans une superposition de 0 et 1 au contraire d'un bit classique qui est soit 1 soit 0. Mais après la mesure, un Qbit retrouve un état final classique. Cette propriété nous permet de stocker des résultats intermédiaires de calcul.
+- Entanglement: un système de plusieurs Qbit peut être mis en état d'intrication où l'état de l'ensemble est lié à l'état de chaque Qbit individuel. Pour un calcul quantique, sa permet de manipuler un grand nombre de possibilités à travers un nombre limité de Qbit en état de superposition.
+
+De ce fait, les algorithmes quantiques possèdent un grand avantage en temps et en resources sur les ordinateurs classiques qui peut être illustré par l'example du [Quantum Card Test](http://research.ibm.com/ibm-q/quantum-card-test/). Dans cette démo, un algorithme classique passe par au plus $O(N)$ itérations alors qu'un algorithme quantique (dans ce cas l'[algorithme de Grover](https://en.wikipedia.org/wiki/Grover%27s_algorithm)) fait au plus $O(\sqrt{N})$ tentatives.  
+Concernant l'état d'art actuel, les algorithmes et le formalisme nécessaire pour la théorie du Quantum Computing voir aussi l'architecture d'un ordinateur quantique sont disponibles alors que le support matériel n'est pas encore prêt. En effet, mettre en place un système de calcule quantique nécessite de conserver un grand nombre de Qbit en état d'intrication quantique ce qui nécessite de les isoler de l'environnement extérieur pour éviter le phénomène de _Decoherence_. Ce qui explique le nombre limité des Qbit dans les ordinateurs les plus aboutis (20 pour IBM Q).
+
+![alt text](./images/IBM-Q.png "IBM Quantum Computer")
+
+Actuellement, les chercheurs ont dépassé l'étape de l'établissement des fondements amis n'ont pas atteint l'étape de la supériorité quantique ou _Quantum Advantage_ où un ordinateur quantique dépasse un ordinateur classique dans un cas de problème réel.
+
+![alt text](./images/quantum-phases.png "Quantum Computing Phases")
+
+Il faut noter aussi que les ordinateurs IBM quantiques peuvent êtres accessible via le [_Cloud_](https://www.research.ibm.com/ibm-q/) et une bibliothèque, [_Qiskit_](https://qiskit.org/), en Python est disponible pour écrire des algorithmes quantiques.
+
+![alt text](./images/quantum-future-evolution.png "Quantum Computing Future Perspectives")
 
 # La gestion de l'authentification et de l'autorisation dans une architecture microservices ? Pas de soucis !
 **Conférence**  
