@@ -97,5 +97,5 @@ En pratique, les Test Suit sont spécifiés dans des fichiers .yml où qui conti
 
 # Améliorez la performance et l'UX de vos app avec React Suspense
 **Tools-in-Action**  
-Cette [démonstration](https://cfp.devoxx.fr/2019/talk/EJW-3475/Ameliorez_la_performance_et_l'UX_de_vos_app_avec_React_Suspense) nous a montré la nouvelle API React Suspense pour le chargement asynchrone des composants, cette API présente une manière générique de suspendre l'affichage en attendant qu'une resource (image, video) ou un autre composant soit prêt.  
-Le code source du code qui a servit pour la démo est disponible sous ce [lien](https://github.com/romaindso/devoxx-2019).
+[Démonstration](https://cfp.devoxx.fr/2019/talk/EJW-3475/Ameliorez_la_performance_et_l'UX_de_vos_app_avec_React_Suspense) de la nouvelle API React Suspense pour le chargement asynchrone des composants, cette API permet ,d'une manière générique, de suspendre l'affichage en attendant qu'une resource (image, video) ou un autre composant soit prêt.  
+Le code source qui a servit pour la démo est disponible sous ce [lien](https://github.com/romaindso/devoxx-2019).
