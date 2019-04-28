@@ -63,4 +63,4 @@ Plus de détails sur le principe du _Concurrency Limits_ est disponible sous ce 
 
 # Les APIs hypermedia expliquées simplement
 **Conférence**  
-
+Cette [présentation](https://cfp.devoxx.fr/2019/talk/YRA-2944/Les_APIs_hypermedia_expliquees_simplement) fait l'analogie entre le principe des liens hypertextes dans une page Web et le niveau de maturité HATEOAS pour les services REST. Conclusion: le HATEOAS est un _Nice to Have_ qui demande plus d'effort pour le mettre en place et le rendre plus adaptable à l'aspect sécurité de l'API REST.
