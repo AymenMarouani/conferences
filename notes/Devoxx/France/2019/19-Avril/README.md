@@ -1,6 +1,6 @@
 # Accessibilité
 **Keynote**  
-Ce [keynote](https://cfp.devoxx.fr/2019/talk/CKW-8744/Accessibilite) s'intègre dans le même thème de bienveillance et bien être dans le travail via le concept d'empathie. En effet, l'intervenante souffre d'un handicap de vision et travaille quotidiennement avec les sites web. Elle a fait découvrir les différents troubles de vision qui peuvent affecter les personnes afin de nous sensibiliser sur l'importance de l'accessibilité
+Ce [keynote](https://cfp.devoxx.fr/2019/talk/CKW-8744/Accessibilite) s'intègre dans le même thème de bienveillance et bien être dans le travail via le concept d'empathie. En effet, l'intervenante souffre d'un handicap de vision et travaille quotidiennement avec les sites web. Elle a fait découvrir les différents troubles de vision qui peuvent affecter les personnes afin de nous sensibiliser sur l'importance de l'accessibilité.  
 :information_source: pensez au côté accessibilité lors de la conception des applications.  
 :information_source: pour les applications web, il est fortement conseillé de considérer les bonnes pratiques suivantes pour assurer l'accessibilité aux malvoyants:
 - utiliser l'attribut _alt_ pour les images car ça aide les logiciels de navigation pour les malvoyants.
