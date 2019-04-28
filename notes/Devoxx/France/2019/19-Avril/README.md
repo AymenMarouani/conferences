@@ -35,6 +35,19 @@ Avec des transparents ayant des scènes filmés au Japon, l'auteur fait allusion
 
 # Faites comme Netflix, abandonnez Hystrix !
 **Quickie**  
+[Hystrix](https://github.com/Netflix/Hystrix) vient d'être abandonné par Netflix à la faveur de [Resilience4j](https://github.com/resilience4j) qui adopte une approche plus dynamique dite _Adaptive Concurrency Limits_. Cette [présentation](https://cfp.devoxx.fr/2019/talk/MCV-0005/Faites_comme_Netflix,_abandonnez_Hystrix_!) a eu comme sujet le principe de cette approche adaptative et ses avantages qui ont rendu Hystrix obsolète.
+
+![alt text](./images/netflix-stack.png "Resilience4j Replacing Hystrix in the Netflix Stack")
+
+Resilience4j offre (en plus des patterns connus comme _Circuit Breaker_) les fonctionnalités du _Bulk Heading_ qui consiste à créer un _Thread Pool_ par instance de service et l'_ACL_ ou _Adaptative Concurrency Limits_ qui consiste à l'auto découverte des limites des files pour les requêtes selon le temps de réponse
+
+![alt text](./images/adaptative-loading.png "Resilience4j Adaptative Concurrency Limits")
+
+pour assurer la solidité du système, il faut limiter la file de requêtes selon le temp de réponse
+
+![alt text](./images/netflix-ACL.png "Adaptative Concurrency Limits Formula")
+
+Plus de détails sur le principe du _Concurrency Limits_ est disponible sous ce [lien](https://github.com/Netflix/concurrency-limits).
 
 # Micro Frontend: le casse tête des micro services étendu au FrontEnd !
 **Conférence**  
