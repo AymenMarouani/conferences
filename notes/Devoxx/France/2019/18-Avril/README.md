@@ -98,6 +98,32 @@ Il faut noter aussi que les ordinateurs IBM quantiques sont accessibles via le [
 
 # La gestion de l'authentification et de l'autorisation dans une architecture microservices ? Pas de soucis !
 **Conférence**  
+[Partage d'expérience](https://cfp.devoxx.fr/2019/talk/JOT-3424/La_gestion_de_l'authentification_et_de_l'autorisation_dans_une_architecture_microservices_%3F_Pas_de_soucis_!) sur un cas de projet réel où il y'a eu besoin de mettre en place un mécanisme d'Authentification et d'Autorisation pour une architecture microservice.  
+L'architecture cible pour être sécurisée est illustrée ci-dessous
+
+![alt text](./images/microservice-initial-architecture.png "Overview of the Microservice Architecture")
+
+Pour le choix d'un fournisseur de service d'authentification, l'équipe a écarté une solution "fait maison" car c'est compliqué de cerner tout les détails de la sécurité, et ils ont opté pour le fournisseur KeyCloack.
+
+![alt text](./images/microservice-security-requirements.png "Requirements for the Microservice Security")
+
+Le protocole pour la sécurité sera OpenIDConnect avec le fournisseur KeyCloack.
+
+![alt text](./images/microservice-security-choice.png "Choices for the Microservice Security")
+
+![alt text](./images/microservice-security-tokens.png "Microservice Security and Tokens")
+
+![alt text](./images/microservice-security-sessions.png "Microservice Security and Session Management")
+
+![alt text](./images/microservice-security-groups.png "Security Groups Management")
+
+![alt text](./images/microservice-security-authorization.png "Authorization Management for the Microservice Security")
+
+![alt text](./images/microservice-security-final.png "Final Architecture for the Microservice Security")
+
+![alt text](./images/microservice-security-conclusions.png "Conclusions on Security on Microservices")
+
+Le code source et les slides sont disponibles dans [GitHub](https://github.com/ImFlog/microservices-security).
 
 # Hexagonal at Scale, où l'art de découper et organiser ses services
 **Conférence**  
