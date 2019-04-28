@@ -9,6 +9,10 @@ Ce [keynote](https://cfp.devoxx.fr/2019/talk/CKW-8744/Accessibilite) s'intègre 
 
 # Le refactoring le plus difficile de ma carrière
 **Keynote**  
+Cette [intervention](https://cfp.devoxx.fr/2019/talk/UPW-7883/Le_refactoring_le_plus_difficile_de_ma_carriere) parle de l'expérience personnelle d'un "Star" dans notre domaine avec la _Depression_. Ce qu'on peut retenir est que vue les pressions dans la vie professionnelle, ça peut arriver à tout le monde.  
+Les slides de la présentation sont disponible via ce QR Code (pour ceux qui savent l'utiliser)
+
+![alt text](./images/depression.png "QR Code for Slides and Resources on Depression")
 
 # Philosophy of HumanOps
 **Keynote**  
