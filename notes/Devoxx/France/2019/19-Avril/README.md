@@ -29,6 +29,15 @@ Avec des transparents ayant des scènes filmés au Japon, l'auteur fait allusion
 
 # Une API, de l'idée à la production, en mode agile avec Red Hat !
 **Conférence**  
+Une [démo](https://cfp.devoxx.fr/2019/talk/OWQ-3436/Une_API,_de_l'idee_a_la_production,_en_mode_agile_avec_Red_Hat_!) d'outils internes mais Open Source en utilisation chez Red Hat qui facilitent le prototypage et le déploiement des API.
+
+![alt text](./images/redhat-tools.png "Red Hat Tools")
+
+Ces outils sont:
+- [Microcks](http://microcks.github.io/): un outil de prototypage d'API REST et totalement compatible avec Swagger et OpenAPI pour la documentation
+- [Apicur](https://www.apicur.io/): un outil pour la conception des API REST
+
+Ces utilitaires ont étaient intégrés dans un cycle de test par Postman et de déploiement sur Jenkins et OpenShift.
 
 # Real Quantum Computing
 **Conférence**  
