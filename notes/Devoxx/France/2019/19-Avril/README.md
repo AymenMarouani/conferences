@@ -54,6 +54,13 @@ Plus de détails sur le principe du _Concurrency Limits_ est disponible sous ce 
 
 # Micronaut, Dragon-Slayer (Spring/boot) or just another framework
 **Conférence**  
+Cette [conférence](https://cfp.devoxx.fr/2019/talk/DIV-1873/Micronaut,_Dragon-Slayer_(Spring%2Fboot)_or_just_another_framework_) fait la comparaison entre Spring Boot et Micronaut à travers un example simple d'application REST.
+
+![alt text](./images/spring-vs-micronaut.png "Spring Vs Micronaut")
+
+A travers l'[example](https://github.com/vladimir-dejanovic/micronaut-vs-spring-boot), côté code, Spring a l'avantage de limiter l'effort de développement grace à son écosystème très varié (JPA, REST ...), mais du point de vu performance, Micronaut à un grand avantage dans les temps de démarrage et l'empreinte mémoire limitée grace à la GraalVM (avec laquelle Spring Boot n'est pas encore compatible).
+
+Conclusion: Micronaut n'est pas sensé remplacer Spring Boot pour les applications existantes, mais il est un très bon candidat pour les nouveaux projets faits from scratch.
 
 # Migrer ses APIs vers GraphQL: pourquoi? comment!
 **Conférence**  
