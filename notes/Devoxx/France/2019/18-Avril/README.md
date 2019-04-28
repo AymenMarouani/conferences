@@ -87,6 +87,13 @@ La bibliothèque [face_recognition](https://github.com/ageitgey/face_recognition
 
 # S'il te plait... dessine moi un vrai test d'intégration
 **Tools-in-Action**  
+Cette [session](https://cfp.devoxx.fr/2019/talk/DLJ-1531/S'il_te_plait..._dessine_moi_un_vrai_test_d'integration) a montré un outil fait par l'équipe de Continious Delivery chez OVH, cet outil s'appelle [CDS](https://github.com/ovh/venom) qui permet d'exécuter des tests d'intégration. Les intervenants ont commencé par présenter la problématique qui a engendré le développement de cet outil. Les tests d'intégration sont définis comme étant "tester les fonctionnalités d'un système sur l'ensemble des composants via des scénarios utilisateur", ceci dit, le critère global des tests va nécessiter un effort de scripting pour les lancer, dans un ordre bien défini qui reflète le scénario utilisateur, à travers tout le système. En pratique, les auteurs de l'outil se sont trouvé avec un script Shell de plus de 300 lignes difficile à maintenir. L'outil CDS qui ont développé se base sur les principes suivants:
+- pas de _boilerplate_ code: pas de code à écrire pour spécifier les tests, juste les fichiers de configuration
+- multi-protocole: il supporte tout les types de communication inter-composant (Web, mail ...)
+- accessible par les interfaces en mode ligne de commande
+- intégrable dans les pipelines CI/CD
+
+En pratique, les Test Suit sont spécifiés dans des fichiers .yml où qui contient des scénarios à exécutés par l'outil [venom](https://github.com/ovh/venom/tree/master/tests) en ligne de commande.
 
 # Améliorez la performance et l'UX de vos app avec React Suspense
 **Tools-in-Action**  
