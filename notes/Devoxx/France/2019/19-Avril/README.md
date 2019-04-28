@@ -77,6 +77,17 @@ Conclusion: Micronaut n'est pas sensé remplacer Spring Boot pour les applicatio
 
 # Migrer ses APIs vers GraphQL: pourquoi? comment!
 **Conférence**  
+Cette [conférence](https://cfp.devoxx.fr/2019/talk/USP-7583/Migrer_ses_APIs_vers_GraphQL:_pourquoi%3F_comment!) parle d'une solution basée sur [_GraphQL_](https://graphql.org/) pour résoudre la complexité croissante d'une architecture microservice qui souffre des problèmes suivants:
+- forte dépendance entre différents services
+- gérer un format de données (date et montant) qui varient d'un client à un autre
+- un output volumineux des API
+
+GraphQL a permit de créer une API cohérente caractérisée par:
+- un schéma simple
+- cacher les complexités du domaine
+- simplifie le développement front end
+
+![alt text](./images/graphql-architecture.png "GraphQL Based Architecture")
 
 # Que se passe-t-il sous le capot ? Exploration au coeur de la JVM.
 **Conférence**  
