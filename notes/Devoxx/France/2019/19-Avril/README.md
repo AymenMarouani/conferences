@@ -16,6 +16,16 @@ Les slides de la présentation sont disponible via ce QR Code (pour ceux qui sav
 
 # Philosophy of HumanOps
 **Keynote**  
+Ce [keynote](https://cfp.devoxx.fr/2019/talk/YLK-5268/Philosophy_of_HumanOps) présente une idée originelle qui met le facteur humain au centre dun projet.
+
+![alt text](./images/human-ops-logo.png "HumanOps Logo")
+
+Avec des transparents ayant des scènes filmés au Japon, l'auteur fait allusion au problème du _burn out_ au travail causé par la sollicitation intensive et stressante des employés pour le maintien des applications critiques. Le principe est simple et peut être réduit dans cette simple égalité évoquée par l'intervenant `humain reliability == product reliability`. En effet, il difficile d'atteindre un bon niveau de productivité pour un employé qui passe des heures tardives et qui ne prend pas suffisamment de repos. Pour cela, des solutions sont proposées comme:
+- penser dès le départ au facteur humain en automatisant le maximum de tâches pour éviter les sollicitations tardives
+- mettre en place une procédure de _checklist_ qui donne dans le cas d'une intervention les étapes nécessaires pour débloquer la situation (cette idée existe déjà dans le domaine de l'aéronautique et a fait ses preuves)
+- optimiser le mécanisme d'alertes automatiques afin de limiter le flux d'informations non utiles et ainsi le stress
+
+![alt text](./images/human-ops-idea.png "HumanOps: the Idea Behind")
 
 # Une API, de l'idée à la production, en mode agile avec Red Hat !
 **Conférence**  
