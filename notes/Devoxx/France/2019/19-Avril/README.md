@@ -76,6 +76,23 @@ Conclusion: Micronaut n'est pas sensé remplacer Spring Boot pour les applicatio
 
 # Que se passe-t-il sous le capot ? Exploration au coeur de la JVM.
 **Conférence**  
+Très intéressante [conférence](https://cfp.devoxx.fr/2019/talk/NYE-1306/Que_se_passe-t-il_sous_le_capot_%3F_Exploration_au_coeur_de_la_JVM.) sur les arcanes de la JVM
+
+![alt text](./images/jvm-byte-code.png "JVM Byte Code")
+
+Le format des types dans le Byte Code Java.
+
+![alt text](./images/jvm-inside-compilation.png "JVM Inside Compilation")
+
+Les composants internes de compilation
+
+![alt text](./images/jvm-code-structure.png "JVM Code Structure")
+
+La structure du code de la JVM
+
+![alt text](./images/jvm-intrinsic-methods.png "JVM Intrinsic Methods")
+
+en finissant par expliquer les méthodes intrinsèques qui sont des implémentations de traitement bas niveau dans le language machine.
 
 # Les APIs hypermedia expliquées simplement
 **Conférence**  
