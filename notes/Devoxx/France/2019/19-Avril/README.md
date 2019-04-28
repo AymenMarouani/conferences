@@ -64,6 +64,20 @@ Plus de détails sur le principe du _Concurrency Limits_ est disponible sous ce 
 
 # Micro Frontend: le casse tête des micro services étendu au FrontEnd !
 **Conférence**  
+Cette [conférence](https://cfp.devoxx.fr/2019/talk/GXO-0317/Micro_Frontend:_le_casse_tete_des_micro_services_etendu_au_FrontEnd_!) a attiré note attention sur le fait que les composants front end sont resté des monolith dans un environnement microservice que le back end bénéficie de ses avantages
+
+![alt text](./images/microservices-benefits.png "Microservies Benefits")
+
+ce qui a donné l'idée d'étendre le principe des microservices aux interfaces utilisateur
+
+![alt text](./images/microfrontend-benefits.png "Microfrontend Benefits")
+
+ce qui va engendrer des GUI avec des téchnologies hétérogènes
+
+![alt text](./images/microfrontend-gui.png "Microfrontend Heterogenous GUI")
+
+mais en pratique les implémentations ont fini par nuire à l'expérience utilisateur et à dégrader la performance.  
+Conclusion: le concept des _Microfrontend_ est très difficile à mettre en oeuvre.
 
 # Micronaut, Dragon-Slayer (Spring/boot) or just another framework
 **Conférence**  
@@ -79,7 +93,7 @@ Conclusion: Micronaut n'est pas sensé remplacer Spring Boot pour les applicatio
 **Conférence**  
 Cette [conférence](https://cfp.devoxx.fr/2019/talk/USP-7583/Migrer_ses_APIs_vers_GraphQL:_pourquoi%3F_comment!) parle d'une solution basée sur [_GraphQL_](https://graphql.org/) pour résoudre la complexité croissante d'une architecture microservice qui souffre des problèmes suivants:
 - forte dépendance entre différents services
-- gérer un format de données (date et montant) qui varient d'un client à un autre
+- gérer un format de données (date et montant) qui varie d'un client à un autre
 - un output volumineux des API
 
 GraphQL a permit de créer une API cohérente caractérisée par:
