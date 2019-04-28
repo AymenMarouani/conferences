@@ -41,8 +41,8 @@ Ces utilitaires ont étaient intégrés dans un cycle de test par Postman et de 
 
 # Real Quantum Computing
 **Conférence**  
-Une [démo](https://cfp.devoxx.fr/2019/talk/VDM-2207/Real_Quantum_Computing) sur un ordinateur quantique sur le Cloud IBM de l'example du Chat de Schrodinger. Le résultat attendu était de 50/50 mais vue les erreurs et les imperfections, il y'a eu d'autres résultat ce qui montre l'imperfection des machines actuelles. La présentation a évoqué les algorithmes quantiques connues surtout [Shor](https://en.wikipedia.org/wiki/Shor%27s_algorithm) et [Deutsch–Jozsa](https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm).  
-Le modèle en couches d'un ordinateur quantique montre la difficulté de garder un grand nombre de Qbit dans un état cohérent.
+Une [démo](https://cfp.devoxx.fr/2019/talk/VDM-2207/Real_Quantum_Computing) sur un ordinateur quantique du Cloud IBM de l'example du Chat de Schrodinger. Le résultat attendu était de 50/50 mais vue les erreurs, il y'a eu d'autres résultat ce qui montre l'imperfection des machines actuelles. La présentation a évoqué les algorithmes quantiques connues comme [Shor](https://en.wikipedia.org/wiki/Shor%27s_algorithm), [Deutsch–Jozsa](https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm) et [BB84](https://en.wikipedia.org/wiki/BB84).  
+Ce modèle en couches d'un ordinateur quantique montre la difficulté de garder un grand nombre de Qbit dans un état cohérent.
 
 ![alt text](./images/quantum-computer-layers.png "Layers for Quantum Computers")
 
