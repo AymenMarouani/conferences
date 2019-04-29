@@ -87,7 +87,7 @@ A travers l'[example](https://github.com/vladimir-dejanovic/micronaut-vs-spring-
 
 Conclusion: Micronaut n'est pas sensé remplacer Spring Boot pour les applications existantes, mais il est un très bon candidat pour les nouveaux projets faits from scratch.
 
-:information_source: jusqu'à instant actuelle, Micronaut ne supporte pas les annotations Lombok.
+:information_source: à l'instant actuelle, Micronaut ne supporte pas les annotations Lombok.
 
 # Migrer ses APIs vers GraphQL: pourquoi? comment!
 **Conférence**  
