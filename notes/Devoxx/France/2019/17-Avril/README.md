@@ -4,7 +4,7 @@
 [Créer facilement des microservices (ou cloud native java) avec Eclipse MicroProfile](#créer-facilement-des-microservices-ou-cloud-native-java-avec-eclipse-microprofile)  
 [Quarkus: du live reload à la compilation native](#quarkus-du-live-reload-à-la-compilation-native)  
 [Micronaut, le framework JVM ultra-light du futur](#micronaut-le-framework-jvm-ultra-light-du-futur)  
-[Utiliser les flux réactifs c'est bien, les tester et les debugger c'est mieux !](#utiliser-les-flux-réactifs-cest-bien-les-tester-et-les-debugger-cest-mieux-!)  
+[Utiliser les flux réactifs c'est bien, les tester et les debugger c'est mieux !](#utiliser-les-flux-réactifs-c-est-bien-les-tester-et-les-debugger-c-est-mieux-!)  
 
 ## Découvrez pourquoi Elixir sera votre prochain langage !
 **Hands-on Labs**  
