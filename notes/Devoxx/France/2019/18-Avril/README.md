@@ -8,7 +8,7 @@
 [Event loop et asynchronisme en JavaScript](#event-loop-et-asynchronisme-en-javascript)  
 [Introduction to Face Processing with Computer Vision](#introduction-to-face-processing-with-computer-vision)  
 [Cats, Qubits, and Clouds: The Quantum Future](#cats-qubits-and-clouds-the-quantum-future)  
-[La gestion de l'authentification et de l'autorisation dans une architecture microservices ? Pas de soucis !](#la-gestion-de-lauthentification-et-de-lautorisation-dans-une-architecture-microservices-pas-de-soucis-!)  
+[La gestion de l'authentification et de l'autorisation dans une architecture microservices ? Pas de soucis !](#la-gestion-de-lauthentification-et-de-lautorisation-dans-une-architecture-microservices--pas-de-soucis-!)  
 [Hexagonal at Scale, où l'art de découper et organiser ses services](#hexagonal-at-scale-où-lart-de-découper-et-organiser-ses-services)  
 [S'il te plait... dessine moi un vrai test d'intégration](#sil-te-plait-dessine-moi-un-vrai-test-dintégration)  
 [Améliorez la performance et l'UX de vos app avec React Suspense](#améliorez-la-performance-et-lux-de-vos-app-avec-react-suspense)  
