@@ -125,4 +125,4 @@ en finissant par expliquer les méthodes intrinsèques qui sont des implémentat
 
 # Les APIs hypermedia expliquées simplement
 **Conférence**  
-Cette [présentation](https://cfp.devoxx.fr/2019/talk/YRA-2944/Les_APIs_hypermedia_expliquees_simplement) fait l'analogie entre le principe des liens hypertextes dans une page Web et le niveau de maturité _HATEOAS_ pour les services REST. Conclusion: le HATEOAS est un _Nice to Have_ qui demande plus d'efforts pour le mettre en place et le rendre plus adaptable à l'aspect sécurité de l'API REST.
+Cette [présentation](https://cfp.devoxx.fr/2019/talk/YRA-2944/Les_APIs_hypermedia_expliquees_simplement) fait l'analogie entre le principe des liens hypertextes dans une page Web et le niveau de maturité _HATEOAS_ pour les services REST. Conclusion: le HATEOAS est un _Nice to Have_ qui demande plus d'efforts pour le mettre en place et le rendre adapté à l'aspect sécurité des API REST.
