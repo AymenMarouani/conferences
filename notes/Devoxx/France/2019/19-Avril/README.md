@@ -9,7 +9,7 @@
 [Micro Frontend: le casse tête des micro services étendu au FrontEnd !](#micro-frontend-le-casse-tête-des-micro-services-étendu-au-frontend-!)  
 [Micronaut, Dragon-Slayer (Spring/boot) or just another framework](#micronaut-dragon-slayer-(spring/boot)-or-just-another-framework)  
 [Migrer ses APIs vers GraphQL: pourquoi? comment!](#migrer-ses-apis-vers-graphql-pourquoi?-comment!)  
-[Que se passe-t-il sous le capot ? Exploration au coeur de la JVM.](#que-se-passe-t-il-sous-le-capot-exploration-au-coeur-de-la-jvm)  
+[Que se passe-t-il sous le capot ? Exploration au coeur de la JVM.](#que-se-passe-t-il-sous-le-capot--exploration-au-coeur-de-la-jvm)  
 [Les APIs hypermedia expliquées simplement](#les-apis-hypermedia-expliquées-simplement)  
 
 ## Accessibilité
