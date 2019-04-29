@@ -1,4 +1,18 @@
-# Accessibilité
+# Vendredi 19 Avril, Devoxx France 2019
+**Agenda**  
+[Accessibilité](#accessibilité)  
+[Le refactoring le plus difficile de ma carrière](#le-refactoring-le-plus-difficile-de-ma-carrière)  
+[Philosophy of HumanOps](#philosophy-of-humanops)  
+[Une API, de l'idée à la production, en mode agile avec Red Hat !](#une-api-de-lidée-à-la-production-en-mode-agile-avec-red-hat-!)  
+[Real Quantum Computing](#real-quantum-computing)  
+[Faites comme Netflix, abandonnez Hystrix !](#faites-comme-netflix-abandonnez-hystrix-!)  
+[Micro Frontend: le casse tête des micro services étendu au FrontEnd !](#micro-frontend-le-casse-tête-des-micro-services-étendu-au-frontend-!)  
+[Micronaut, Dragon-Slayer (Spring/boot) or just another framework](#micronaut-dragon-slayer-(spring/boot)-or-just-another-framework)  
+[Migrer ses APIs vers GraphQL: pourquoi? comment!](#migrer-ses-apis-vers-graphql-pourquoi?-comment!)  
+[Que se passe-t-il sous le capot ? Exploration au coeur de la JVM.](#que-se-passe-t-il-sous-le-capot-?-exploration-au-coeur-de-la-jvm)  
+[Les APIs hypermedia expliquées simplement](#les-apis-hypermedia-expliquées-simplement)  
+
+## Accessibilité
 **Keynote**  
 Ce [keynote](https://cfp.devoxx.fr/2019/talk/CKW-8744/Accessibilite) s'intègre dans le même thème de bienveillance et bien être dans le travail via le concept d'empathie. En effet, l'intervenante souffre d'un handicap de vision et travaille quotidiennement avec les sites web. Elle a fait découvrir les différents troubles de vision qui peuvent affecter les personnes afin de nous sensibiliser sur l'importance de l'accessibilité.  
 :information_source: pensez au côté accessibilité lors de la conception des applications.  
@@ -7,14 +21,18 @@ Ce [keynote](https://cfp.devoxx.fr/2019/talk/CKW-8744/Accessibilite) s'intègre 
 - ne pas faire un saut brusque d'ordre entre les balises _h_, example ne pas faire suivre un _h1_ par un _h4_ directement.
 - pour les méta-data des pages HTML, indiquer correctement la langue _fr_ pour les articles francophones.
 
-# Le refactoring le plus difficile de ma carrière
+[^Agenda](#vendredi-19-avril-devoxx-france-2019)
+
+## Le refactoring le plus difficile de ma carrière
 **Keynote**  
 Cette [intervention](https://cfp.devoxx.fr/2019/talk/UPW-7883/Le_refactoring_le_plus_difficile_de_ma_carriere) parle de l'expérience personnelle d'un "Star" dans notre domaine avec la _Depression_. Ce qu'on peut retenir est que vu les pressions dans la vie professionnelle, ça peut arriver à tout le monde.  
 Les slides de la présentation sont disponibles via ce QR Code (pour ceux qui savent l'utiliser)
 
 ![alt text](./images/depression.png "QR Code for Slides and Resources on Depression")
 
-# Philosophy of HumanOps
+[^Agenda](#vendredi-19-avril-devoxx-france-2019)
+
+## Philosophy of HumanOps
 **Keynote**  
 Ce [keynote](https://cfp.devoxx.fr/2019/talk/YLK-5268/Philosophy_of_HumanOps) présente une idée originelle qui met le facteur humain au centre de tout projet.
 
@@ -27,7 +45,9 @@ Avec des transparents ayant comme photo d'arrière plan des scènes filmées au 
 
 ![alt text](./images/human-ops-idea.png "HumanOps: the Idea Behind")
 
-# Une API, de l'idée à la production, en mode agile avec Red Hat !
+[^Agenda](#vendredi-19-avril-devoxx-france-2019)
+
+## Une API, de l'idée à la production, en mode agile avec Red Hat !
 **Conférence**  
 Une [démo](https://cfp.devoxx.fr/2019/talk/OWQ-3436/Une_API,_de_l'idee_a_la_production,_en_mode_agile_avec_Red_Hat_!) d'outils internes mais Open Source en utilisation chez Red Hat qui facilitent le prototypage et le déploiement des API.
 
@@ -39,14 +59,18 @@ Ces outils sont:
 
 Ces utilitaires ont étaient intégrés dans un cycle de test par Postman et de déploiement sur Jenkins et OpenShift.
 
-# Real Quantum Computing
+[^Agenda](#vendredi-19-avril-devoxx-france-2019)
+
+## Real Quantum Computing
 **Conférence**  
 Une [démo](https://cfp.devoxx.fr/2019/talk/VDM-2207/Real_Quantum_Computing) sur un ordinateur quantique du Cloud IBM de l'example du Chat de Schrodinger. Le résultat attendu était de 50/50 mais vu les erreurs, il y'a eu d'autres résultats ce qui montre l'imperfection des machines actuelles. La présentation a évoqué les algorithmes quantiques connues comme [Shor](https://en.wikipedia.org/wiki/Shor%27s_algorithm), [Deutsch–Jozsa](https://en.wikipedia.org/wiki/Deutsch%E2%80%93Jozsa_algorithm) et [BB84](https://en.wikipedia.org/wiki/BB84).  
 Ce modèle en couches d'un ordinateur quantique montre la difficulté de garder un grand nombre de Qbit dans un état cohérent.
 
 ![alt text](./images/quantum-computer-layers.png "Layers for Quantum Computers")
 
-# Faites comme Netflix, abandonnez Hystrix !
+[^Agenda](#vendredi-19-avril-devoxx-france-2019)
+
+## Faites comme Netflix, abandonnez Hystrix !
 **Quickie**  
 [Hystrix](https://github.com/Netflix/Hystrix) vient d'être abandonné par Netflix à la faveur de [Resilience4j](https://github.com/resilience4j) qui adopte une approche plus dynamique dite _Adaptive Concurrency Limits_. Cette [présentation](https://cfp.devoxx.fr/2019/talk/MCV-0005/Faites_comme_Netflix,_abandonnez_Hystrix_!) a eu comme sujet le principe de cette approche adaptative et ses avantages qui ont rendu Hystrix obsolète.
 
@@ -60,7 +84,9 @@ Resilience4j offre (en plus des patterns connus comme _Circuit Breaker_) les fon
 
 Plus de détails sur le principe du _Concurrency Limits_ est disponible sous ce [lien](https://github.com/Netflix/concurrency-limits).
 
-# Micro Frontend: le casse tête des micro services étendu au FrontEnd !
+[^Agenda](#vendredi-19-avril-devoxx-france-2019)
+
+## Micro Frontend: le casse tête des micro services étendu au FrontEnd !
 **Conférence**  
 Cette [conférence](https://cfp.devoxx.fr/2019/talk/GXO-0317/Micro_Frontend:_le_casse_tete_des_micro_services_etendu_au_FrontEnd_!) a attiré note attention sur le fait que les composants front end sont resté des monolith dans un environnement microservice que le back end bénéficie de ses avantages
 
@@ -77,7 +103,9 @@ ce qui va engendrer des GUI avec des technologies hétérogènes
 mais en pratique les implémentations ont fini par nuire à l'expérience utilisateur et à dégrader la performance.  
 Conclusion: le concept des _Microfrontend_ est très difficile à mettre en oeuvre.
 
-# Micronaut, Dragon-Slayer (Spring/boot) or just another framework
+[^Agenda](#vendredi-19-avril-devoxx-france-2019)
+
+## Micronaut, Dragon-Slayer (Spring/boot) or just another framework
 **Conférence**  
 Cette [conférence](https://cfp.devoxx.fr/2019/talk/DIV-1873/Micronaut,_Dragon-Slayer_(Spring%2Fboot)_or_just_another_framework_) fait la comparaison entre Spring Boot et Micronaut à travers un example simple d'application REST.
 
@@ -89,7 +117,9 @@ Conclusion: Micronaut n'est pas sensé remplacer Spring Boot pour les applicatio
 
 :information_source: à l'instant actuelle, Micronaut ne supporte pas les annotations Lombok.
 
-# Migrer ses APIs vers GraphQL: pourquoi? comment!
+[^Agenda](#vendredi-19-avril-devoxx-france-2019)
+
+## Migrer ses APIs vers GraphQL: pourquoi? comment!
 **Conférence**  
 Cette [conférence](https://cfp.devoxx.fr/2019/talk/USP-7583/Migrer_ses_APIs_vers_GraphQL:_pourquoi%3F_comment!) parle d'une solution basée sur [_GraphQL_](https://graphql.org/) pour résoudre la complexité croissante d'une architecture microservice qui souffre des problèmes suivants:
 - forte dépendance entre différents services
@@ -103,7 +133,9 @@ GraphQL a permit de créer une API cohérente caractérisée par:
 
 ![alt text](./images/graphql-architecture.png "GraphQL Based Architecture")
 
-# Que se passe-t-il sous le capot ? Exploration au coeur de la JVM.
+[^Agenda](#vendredi-19-avril-devoxx-france-2019)
+
+## Que se passe-t-il sous le capot ? Exploration au coeur de la JVM.
 **Conférence**  
 Très intéressante [conférence](https://cfp.devoxx.fr/2019/talk/NYE-1306/Que_se_passe-t-il_sous_le_capot_%3F_Exploration_au_coeur_de_la_JVM.) sur les arcanes de la JVM
 
@@ -123,6 +155,10 @@ La structure du code de la JVM
 
 en finissant par expliquer les méthodes intrinsèques qui sont des implémentations de traitement bas niveau dans le language machine.
 
-# Les APIs hypermedia expliquées simplement
+[^Agenda](#vendredi-19-avril-devoxx-france-2019)
+
+## Les APIs hypermedia expliquées simplement
 **Conférence**  
 Cette [présentation](https://cfp.devoxx.fr/2019/talk/YRA-2944/Les_APIs_hypermedia_expliquees_simplement) fait l'analogie entre le principe des liens hypertextes dans une page Web et le niveau de maturité _HATEOAS_ pour les services REST. Conclusion: le HATEOAS est un _Nice to Have_ qui demande plus d'efforts pour le mettre en place et le rendre adapté à l'aspect sécurité des API REST.
+
+[^Agenda](#vendredi-19-avril-devoxx-france-2019)
