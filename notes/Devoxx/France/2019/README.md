@@ -16,7 +16,7 @@ L'édition française du Devoxx 2019 s'est déroulée à Paris au Palais des Con
 - Architecture Hexagonale (at scale)
 - Serverless
 - Cloud Native
-- Tests unitaire et intégration
+- Tests unitaires et d'intégration
 - Sécurité applicative
 - Keycloak
 - Conteneurs et orchestration
