@@ -10,6 +10,8 @@ L'édition française du Devoxx 2019 s'est déroulée à Paris au Palais des Con
 - Apache Kafka
 - L'avenir de Java au-delà de Java 11
 - WebAssembly
+- PWA (Progressive Web Application)
+- Front End Microservices
 - Domain Driven Design
 - CQRS
 - Architecture Microservices
@@ -20,7 +22,7 @@ L'édition française du Devoxx 2019 s'est déroulée à Paris au Palais des Con
 - Sécurité applicative
 - Keycloak
 - Conteneurs et orchestration
-- Resilince4j et Adaptive Concurrency Limits
+- Resilience4j et Adaptive Concurrency Limits
 - Deep Learning et AI
 - Quantum Computing
 - Bonheur, bienveillance au travail et équilibre avec la vie privée
