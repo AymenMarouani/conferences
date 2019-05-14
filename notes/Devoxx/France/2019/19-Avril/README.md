@@ -21,7 +21,7 @@ Ce [keynote](https://cfp.devoxx.fr/2019/talk/CKW-8744/Accessibilite) s'intègre 
 - ne pas faire un saut brusque d'ordre entre les balises _h_, example ne pas faire suivre un _h1_ par un _h4_ directement.
 - pour les méta-data des pages HTML, indiquer correctement la langue _fr_ pour les articles francophones.
 
-**[ :arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
 
 ## Le refactoring le plus difficile de ma carrière
 **Keynote**  
@@ -30,7 +30,7 @@ Les slides de la présentation sont disponibles via ce QR Code (pour ceux qui sa
 
 ![alt text](./images/depression.png "QR Code for Slides and Resources on Depression")
 
-**[ :arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
 
 ## Philosophy of HumanOps
 **Keynote**  
@@ -45,7 +45,7 @@ Avec des transparents ayant comme photo d'arrière plan des scènes filmées au 
 
 ![alt text](./images/human-ops-idea.png "HumanOps: the Idea Behind")
 
-**[ :arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
 
 ## Une API, de l'idée à la production, en mode agile avec Red Hat !
 **Conférence**  
@@ -59,7 +59,7 @@ Ces outils sont:
 
 Ces utilitaires ont étaient intégrés dans un cycle de test par Postman et de déploiement sur Jenkins et OpenShift.
 
-**[ :arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
 
 ## Real Quantum Computing
 **Conférence**  
@@ -68,7 +68,7 @@ Ce modèle en couches d'un ordinateur quantique montre la difficulté de garder 
 
 ![alt text](./images/quantum-computer-layers.png "Layers for Quantum Computers")
 
-**[ :arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
 
 ## Faites comme Netflix, abandonnez Hystrix !
 **Quickie**  
@@ -84,7 +84,7 @@ Resilience4j offre (en plus des patterns connus comme _Circuit Breaker_) les fon
 
 Plus de détails sur le principe du _Concurrency Limits_ est disponible sous ce [lien](https://github.com/Netflix/concurrency-limits).
 
-**[ :arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
 
 ## Micro Frontend: le casse tête des micro services étendu au FrontEnd !
 **Conférence**  
@@ -103,7 +103,7 @@ ce qui va engendrer des GUI avec des technologies hétérogènes
 mais en pratique les implémentations ont fini par nuire à l'expérience utilisateur et à dégrader la performance.  
 Conclusion: le concept des _Microfrontend_ est très difficile à mettre en oeuvre.
 
-**[ :arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
 
 ## Micronaut, Dragon-Slayer (Spring/boot) or just another framework
 **Conférence**  
@@ -117,7 +117,7 @@ Conclusion: Micronaut n'est pas sensé remplacer Spring Boot pour les applicatio
 
 :information_source: à l'instant actuelle, Micronaut ne supporte pas les annotations Lombok.
 
-**[ :arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
 
 ## Migrer ses APIs vers GraphQL: pourquoi? comment!
 **Conférence**  
@@ -133,7 +133,7 @@ GraphQL a permit de créer une API cohérente caractérisée par:
 
 ![alt text](./images/graphql-architecture.png "GraphQL Based Architecture")
 
-**[ :arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
 
 ## Que se passe-t-il sous le capot ? Exploration au coeur de la JVM.
 **Conférence**  
@@ -155,10 +155,10 @@ La structure du code de la JVM
 
 en finissant par expliquer les méthodes intrinsèques qui sont des implémentations de traitement bas niveau dans le language machine.
 
-**[ :arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
 
 ## Les APIs hypermedia expliquées simplement
 **Conférence**  
 Cette [présentation](https://cfp.devoxx.fr/2019/talk/YRA-2944/Les_APIs_hypermedia_expliquees_simplement) fait l'analogie entre le principe des liens hypertextes dans une page Web et le niveau de maturité _HATEOAS_ pour les services REST. Conclusion: le HATEOAS est un _Nice to Have_ qui demande plus d'efforts pour le mettre en place et le rendre adapté à l'aspect sécurité des API REST.
 
-**[ :arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#vendredi-19-avril-devoxx-france-2019)**

@@ -17,19 +17,19 @@
 **Keynote**  
 Présentation de différentes statistiques (nombre de participants, taux de visualisation sur Youtube, logistique), dans une mise en scène drôle, qui sont globalement positives et montrent le succès de l'événement Devoxx France.
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
 
 ## Le Bonheur au travail : au delà du bullshit.
 **Keynote**  
 Dans cette [intervention](https://cfp.devoxx.fr/2019/talk/ZGF-7420/Le_Bonheur_au_travail_:_au_dela_du_bullshit.), l'ingénieur et philosophe Christian Fauré, nous expose le côté nuisible et caché d'un environnement de travail vide de tout sens de valeur ajoutée. Il nous introduit la notion de la _Prolitarisation_ de l'individu qui consiste à le priver du savoir et le transformer en un automate exécutant une tâche monotone semblable à la situation de la classe ouvrière à la veille de la Révolution Industrielle. Il attire notre attention sur les dangers latents que représente l'utilisation excessive des Frameworks informatiques qui visent à améliorer la productivité, vu la nature hautement compétitive du marché, mais qui finissent par nous rendre des esclaves car elles nous éloignent des principes fondamentaux sous jacents (donc du savoir créatif) et limitent notre apport à un savoir superficiel et éphémère. Le bonheur ne vient pas de l'emploie ou du poste occupé, mais de la valeur du Travail qui induit un sentiment de satisfaction venu de l'oeuvre et la quête du savoir et du sens qui sont, enfin du compte, l'essence même de notre existence.
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
 
 ## La bienveillance en entreprise
 **Keynote**  
 Sous le même thème du bonheur au travail, l'ancien commandant de la Marine Nationale Olivier Lajous, enchaîne avec un [discours](https://cfp.devoxx.fr/2019/talk/YMT-2000/La_bienveillance_en_entreprise) qui porte sur la relation avec l'autre dans le milieu professionnel. Malgré l'aspect non individuel que relève l'idée d'un groupe où il y'a la bienveillance, son intervention se base sur le principe suivant: pour être en paix avec les autres, il faut commencer par se réconcilier avec soi-même. Par conséquence, un groupe où il y'a un conflit entre ses membres accuse un problème interne au niveau individuel. L'intervenant a employé la [Parabole des Porcs-épics](https://www.schopenhauer.fr/fragments/porcs-epics.html) du philosophe Allemand Schopenhauer pour nous expliquer l'importance d'adopter une distance adéquate avec l'autre pour éviter les conflits et pour trouver un compromis pour la cohérence de l'équipe. Il invoque aussi les _4 Accords Toltèques_ (parole impeccable, ne pas prendre les choses d'une manière personnelle, faire de son mieux, ne pas faire de suppositions) comme une philosophie de conduite personnelle pour atteindre la paix interne et par conséquence l'harmonie avec les autres.
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
 
 ## PostgreSQL c'est le nouveau NoSQL
 **Conférence**  
@@ -44,7 +44,7 @@ Ensuite, la présentation a continué avec les fonctionnalités dans PostgreSQL 
 
 Enfin, une démonstration du nouveau [_Reactive JDBC Driver R2DBC_](https://r2dbc.io/) pour montrer comment il nous permet de gérer d'une manière asynchrone et robuste notre connexion.
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
 
 ## Retour aux sources de l'authentification et ce qui va changer en Septembre 2019 pour nos achats
 **Conférence**  
@@ -76,7 +76,7 @@ Pour les perspectives futures des standards d'authentification, on peut mentionn
 - le projet [_FIDO2_](https://en.wikipedia.org/wiki/FIDO2_Project)
 - [_WebAuthn_](https://webauthn.io/) un standard W3C
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
 
 ## Event loop et asynchronisme en JavaScript
 **Quickie**  
@@ -90,7 +90,7 @@ Mais les tasks ne sont pas tous les même, car ils existent des tasks qui sont d
 
 Les transparents sont disponibles sous ce [lien](https://t.co/TKdWDCUdry).
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
 
 ## Introduction to Face Processing with Computer Vision
 **Conférence**  
@@ -103,7 +103,7 @@ Une [présentation](https://cfp.devoxx.fr/2019/talk/LQO-4838/Introduction_to_Fac
 
 La bibliothèque [face_recognition](https://github.com/ageitgey/face_recognition) pour Python est bien réputée pour sa simplicité d'utilisation.
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
 
 ## Cats, Qubits, and Clouds: The Quantum Future
 **Conférence**  
@@ -125,7 +125,7 @@ Il faut noter aussi que les ordinateurs IBM quantiques sont accessibles via le [
 
 ![alt text](./images/quantum-future-evolution.png "Quantum Computing Future Perspectives")
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
 
 ## La gestion de l'authentification et de l'autorisation dans une architecture microservices ? Pas de soucis !
 **Conférence**  
@@ -156,14 +156,14 @@ Le protocole pour la sécurité sera OpenIDConnect avec le fournisseur KeyCloack
 
 Le code source et les slides sont disponibles dans [GitHub](https://github.com/ImFlog/microservices-security).
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
 
 ## Hexagonal at Scale, où l'art de découper et organiser ses services
 **Conférence**  
 Cette [conférence](https://cfp.devoxx.fr/2019/talk/GDA-0693/Hexagonal_at_Scale,_ou_l'art_de_decouper_et_organiser_ses_services) a fini par énoncer un nouveau principe pour les architectures microservice et le DDD qui est le _Hexagonal at Scale_ qui semble être une conclusion logique après une longue introduction au DDD. En effet, le talon d'Achille d'une architecture microservice typique réside dans son découpage en domaines distincts d'où l'intérêt du DDD. La manière la plus évidente pour découper le monolithe est d'utiliser un découpage par contexte métier (Paiement, Discount) ce qui peut engendrer des effets collatéraux comme une duplication des entités qui vont évoluer d'une manière indépendante (AdresseFacturation, AddresseLivraison). Le découpage dans ce cas va se baser sur une spécification métier non ambiguë et un effort de groupe (_Event Storming_). Étant donnée une délimitation en domaines pour un microservice, plusieurs critères déterminent son succès comme la possibilité de laisser chaque domaine évoluer indépendamment avec sa propre technologie, une forte cohésion avec un faible couplage et une simplicité de déploiement.  
 L'architecture hexagonale est une approche pour assurer la cohésion pour un microservice et est appliquée ponctuellement. Elle est centrée sur le concept du _Domain_ et ses interfaces connues sous le nom de _Port_ et _Adapter_. L'intervenant a remarqué que le même motif peut se répéter au niveau global avec un microservice qui fait le role du Domain et les autres périphériques (API Gateway, Proxy, _BFF_) comme microservice Port et Adapter d'où sa "Découverte" du concept de l'_Hexagonal at Scale_. En fin, il y'a eu l'annonce de son nouveau [bouquin](https://www.amazon.fr/Living-Documentation-Cyrille-Martraire/dp/0134689321) sur le DDD.
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
 
 ## S'il te plait... dessine moi un vrai test d'intégration
 **Tools-in-Action**  
@@ -175,11 +175,11 @@ Cette [session](https://cfp.devoxx.fr/2019/talk/DLJ-1531/S'il_te_plait..._dessin
 
 En pratique, les _Test Suit_ sont spécifiés dans des fichiers .yml qui contiennent une succession de scénarios à exécuter par l'outil [venom](https://github.com/ovh/venom/tree/master/tests) en ligne de commande.
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
 
 ## Améliorez la performance et l'UX de vos app avec React Suspense
 **Tools-in-Action**  
 [Démonstration](https://cfp.devoxx.fr/2019/talk/EJW-3475/Ameliorez_la_performance_et_l'UX_de_vos_app_avec_React_Suspense) de la nouvelle API React Suspense pour le chargement asynchrone des composants, cette API permet, d'une manière générique, de suspendre l'affichage en attendant qu'une resource (image, video) ou un autre composant soit prêt.  
 Le code source qui a servit pour la démo est disponible sous ce [lien](https://github.com/romaindso/devoxx-2019).
 
-**[ :arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
+**[:arrow_double_up: Agenda](#jeudi-18-avril-devoxx-france-2019)**
